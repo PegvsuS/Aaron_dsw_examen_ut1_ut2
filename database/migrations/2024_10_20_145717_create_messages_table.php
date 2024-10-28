@@ -14,6 +14,8 @@ return new class extends Migration
         Schema::create('messages', function (Blueprint $table) {
             $table->id();
             $table->text("text");
+            $table->string('negrita');
+            $table->string('subrayado');
             $table->timestamps();
         });
     }

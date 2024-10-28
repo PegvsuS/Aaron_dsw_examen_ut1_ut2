@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 200px;
+    background-color: #f7f7f7;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+form#form {
+    background-color: #cfd0f0;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    width: 500px;
+    height: 498px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+input[type="email"],
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: #0339af;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    
+}
+button:hover {
+    background-color: #218838;
+    margin: 0 auto;
+    
+}
+
+/* Estilo general de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Para unir los bordes */
+    margin: 20px 0; /* Espacio alrededor de la tabla */
+}
+
+/* Estilo para los encabezados de la tabla */
+th {
+    background-color: #3584df; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+/* Estilo para las celdas de la tabla */
+td {
+    border: 1px solid #ddd; /* Borde de las celdas */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Color de fondo alternativo para las filas */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
+
+/* Efecto hover en las filas */
+tbody tr:hover {
+    background-color: #ddd; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilo para el botón de eliminar */
+button {
+    background-color: #f44336; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 5px 10px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Para que funcione bien en línea */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar por encima */
+}
+
+/* Efecto hover en el botón */
+button:hover {
+    background-color: #c62828; /* Color al pasar el ratón */
+}
